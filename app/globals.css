@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sans-sc), -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-x: hidden;
 }
 
@@ -271,7 +271,7 @@ body {
 
 /* Staggered entrance */
 .hero-russian-title {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: var(--font-serif-sc), 'Georgia', 'Noto Serif SC', serif;
   font-size: 0.95rem;
   color: rgba(251, 191, 36, 0.85);
   letter-spacing: 0.25em;
@@ -282,7 +282,7 @@ body {
 }
 
 .hero-main-title {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: var(--font-serif-sc), 'Georgia', 'Noto Serif SC', serif;
   font-size: 2.75rem;
   font-weight: 700;
   color: white;
@@ -500,14 +500,14 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: var(--font-sans-sc), -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection { background: #e8d4aa; color: #111827; }
 
 .font-serif {
-  font-family: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
+  font-family: var(--font-serif-sc), Georgia, "Noto Serif SC", serif;
 }
 
 .gift-kicker {

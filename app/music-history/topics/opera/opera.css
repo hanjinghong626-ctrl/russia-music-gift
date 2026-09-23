@@ -7,7 +7,7 @@
   min-height: 100dvh;
   background: var(--color-bg-deep);
   color: var(--color-text-primary);
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: var(--font-sans-sc), sans-serif;
 }
 
 .opera-loading {
@@ -95,7 +95,7 @@
 
 .title-zh {
   display: block;
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-serif-sc), serif;
   font-size: 36px;
   font-weight: 700;
   color: var(--color-primary);
@@ -104,7 +104,7 @@
 
 .title-ru {
   display: block;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
@@ -288,7 +288,7 @@
 }
 
 .period-title-zh {
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-serif-sc), serif;
   font-size: 26px;
   font-weight: 700;
   color: var(--color-primary);
@@ -407,7 +407,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-serif-sc), serif;
   font-size: 18px;
   font-weight: 700;
   flex-shrink: 0;
@@ -482,7 +482,7 @@
 }
 
 .work-title-zh {
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-serif-sc), serif;
   font-size: 16px;
   font-weight: 600;
   color: var(--color-text-primary);
@@ -490,7 +490,7 @@
 }
 
 .work-title-ru {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 14px;
   color: var(--color-primary);
   font-style: italic;
@@ -683,7 +683,7 @@
 }
 
 .footer-title {
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-serif-sc), serif;
   font-size: 20px;
   color: var(--color-primary);
   margin-bottom: 16px;

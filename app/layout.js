@@ -1,4 +1,26 @@
 import './globals.css'
+import { Noto_Serif_SC, Noto_Sans_SC, Playfair_Display } from 'next/font/google'
+
+const notoSerifSC = Noto_Serif_SC({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-serif-sc',
+  display: 'swap',
+})
+
+const notoSansSC = Noto_Sans_SC({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-sans-sc',
+  display: 'swap',
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
 export const metadata = {
   title: {
@@ -29,8 +51,8 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="zh-CN">
-      <body>{children}</body>
+    <html lang="zh-CN" className={`${notoSerifSC.variable} ${notoSansSC.variable} ${playfair.variable}`}>
+      <body className="font-sans-sc">{children}</body>
     </html>
   )
 }

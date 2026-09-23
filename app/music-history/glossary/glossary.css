@@ -5,7 +5,7 @@
   min-height: 100dvh;
   background: #0A0E17;
   color: #F5F5F5;
-  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-sans-sc), -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Loading */

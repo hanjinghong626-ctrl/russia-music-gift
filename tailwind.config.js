@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans-sc': ['var(--font-sans-sc)', '-apple-system', 'BlinkMacSystemFont', 'PingFang SC', 'Microsoft YaHei', 'sans-serif'],
+        'serif-sc': ['var(--font-serif-sc)', 'Georgia', 'Noto Serif SC', 'serif'],
+        'display': ['var(--font-playfair)', 'Georgia', 'serif'],
+      },
       colors: {
         // 主色调：俄罗斯红（经典庄重）
         primary: {
