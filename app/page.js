@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
           <div className="max-w-3xl">
             <p className="mb-6 font-display text-sm italic tracking-[0.25em] text-amber-200/90 md:text-base">Музыка — путь к душе</p>
-            <h1 className="font-serif text-4xl font-bold tracking-[0.06em] leading-[1.2] text-white md:text-5xl lg:text-[3.5rem]">
+            <h1 className="font-serif text-3xl font-bold tracking-[0.08em] leading-[1.25] text-white md:text-4xl lg:text-5xl">
               格睿斯音乐留学平台
             </h1>
             <p className="mt-7 max-w-2xl text-[0.95rem] font-light leading-[1.85] text-white/70 md:text-base md:leading-[1.9]">
