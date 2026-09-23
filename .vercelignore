@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+*.tar.gz
+HANDOFF_NOTES.md
+DEPLOY.md
+IMSLP_PDF_Report.md
+AI评估系统技术方案.md
+产品规划.md
+docs
