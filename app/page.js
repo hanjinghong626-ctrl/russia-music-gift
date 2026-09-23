@@ -24,24 +24,24 @@ export default function HomePage() {
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
           <div className="max-w-3xl">
-            <p className="mb-5 font-serif text-sm italic tracking-[0.2em] text-amber-200 md:text-base">Музыка — путь к душе</p>
-            <h1 className="font-serif text-4xl font-semibold leading-[1.12] text-white md:text-6xl lg:text-7xl">
+            <p className="mb-6 font-display text-sm italic tracking-[0.25em] text-amber-200/90 md:text-base">Музыка — путь к душе</p>
+            <h1 className="font-serif text-4xl font-bold tracking-[0.06em] leading-[1.2] text-white md:text-5xl lg:text-[3.5rem]">
               格睿斯音乐留学平台
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-8 text-white/75 md:text-lg">
+            <p className="mt-7 max-w-2xl text-[0.95rem] font-light leading-[1.85] text-white/70 md:text-base md:leading-[1.9]">
               为中文音乐学习者整理院校、曲库、音乐史与俄语专业知识。这里不是一张信息海报，而是一套可以继续生长的俄罗斯音乐学习工具。
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/schools" className="rounded-full bg-amber-200 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-amber-100">开始选校 →</Link>
-              <Link href="/my-application" className="rounded-full border border-white/25 bg-white/10 px-6 py-3 text-sm font-medium text-white backdrop-blur transition hover:bg-white/15">我的申请</Link>
-              <Link href="/music-history" className="rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">进入音乐史</Link>
+              <Link href="/schools" className="rounded-full bg-amber-200 px-7 py-3.5 text-sm font-semibold tracking-wide text-slate-950 transition hover:bg-amber-100 hover:shadow-lg hover:shadow-amber-200/20">开始选校 →</Link>
+              <Link href="/my-application" className="rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-medium tracking-wide text-white backdrop-blur transition hover:bg-white/15 hover:border-white/40">我的申请</Link>
+              <Link href="/music-history" className="rounded-full border border-white/20 px-7 py-3.5 text-sm font-medium tracking-wide text-white/75 transition hover:bg-white/10 hover:text-white hover:border-white/30">进入音乐史</Link>
             </div>
           </div>
 
           <div className="mt-14 grid max-w-3xl grid-cols-3 gap-3 border-t border-white/15 pt-6 text-white/75 md:gap-8">
-            <div><p className="font-serif text-2xl text-white md:text-3xl">9</p><p className="mt-1 text-xs md:text-sm">核心院校</p></div>
-            <div><p className="font-serif text-2xl text-white md:text-3xl">6</p><p className="mt-1 text-xs md:text-sm">核心工具</p></div>
-            <div><p className="font-serif text-2xl text-white md:text-3xl">RU · 中文</p><p className="mt-1 text-xs md:text-sm">双语学习框架</p></div>
+            <div><p className="font-display text-2xl font-medium text-white md:text-3xl">9</p><p className="mt-1 text-xs md:text-sm">核心院校</p></div>
+            <div><p className="font-display text-2xl font-medium text-white md:text-3xl">6</p><p className="mt-1 text-xs md:text-sm">核心工具</p></div>
+            <div><p className="font-display text-2xl font-medium text-white md:text-3xl">RU · 中文</p><p className="mt-1 text-xs md:text-sm">双语学习框架</p></div>
           </div>
         </div>
       </section>

@@ -34,10 +34,10 @@ export default function SiteHeader({ overlay = false }) {
     <header className={`${shell} pt-[env(safe-area-inset-top)]`}>
       <div className="mx-auto flex h-[68px] max-w-7xl items-center justify-between px-5 md:px-8">
         <Link href="/" className="group flex min-w-0 items-center gap-3" onClick={() => setOpen(false)}>
-          <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full border font-serif text-lg transition ${overlay ? 'border-amber-100/25 bg-white/10 text-amber-100 group-hover:border-amber-100/50' : 'border-[#d8ccb6] bg-[#101b27] text-amber-100 group-hover:bg-[#172536]'}`}>♪</span>
+          <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full border font-serif-sc text-lg transition ${overlay ? 'border-amber-100/25 bg-white/10 text-amber-100 group-hover:border-amber-100/50' : 'border-[#d8ccb6] bg-[#101b27] text-amber-100 group-hover:bg-[#172536]'}`}>♪</span>
           <span className="min-w-0">
-            <span className="block truncate font-serif text-[15px] font-semibold tracking-[0.04em] md:text-[17px]">俄罗斯音乐留学</span>
-            <span className={`hidden text-[9px] uppercase tracking-[0.25em] sm:block ${overlay ? 'text-white/45' : 'text-slate-400'}`}>Russian Music Study</span>
+            <span className="block truncate font-serif-sc text-[15px] font-semibold tracking-[0.06em] md:text-[17px]">俄罗斯音乐留学</span>
+            <span className={`hidden font-display text-[9px] uppercase tracking-[0.25em] sm:block ${overlay ? 'text-white/45' : 'text-slate-400'}`}>Russian Music Study</span>
           </span>
         </Link>
 
