@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <p className="mb-5 font-serif text-sm italic tracking-[0.2em] text-amber-200 md:text-base">Музыка — путь к душе</p>
             <h1 className="font-serif text-4xl font-semibold leading-[1.12] text-white md:text-6xl lg:text-7xl">
-              读懂俄罗斯音乐，<br />也读懂你的留学选择。
+              格睿斯音乐留学平台
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-white/75 md:text-lg">
               为中文音乐学习者整理院校、曲库、音乐史与俄语专业知识。这里不是一张信息海报，而是一套可以继续生长的俄罗斯音乐学习工具。
